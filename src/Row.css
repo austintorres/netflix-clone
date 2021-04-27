@@ -1,4 +1,9 @@
 .row_poster {
+  max-height: 100px;
   object-fit: contain;
   width: 100%;
+}
+
+.row_posters {
+  display: flex;
 }
