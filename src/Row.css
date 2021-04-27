@@ -1,3 +1,7 @@
+.row {
+  margin-left: 20px;
+}
+
 .row_poster {
   max-height: 100px;
   object-fit: contain;
@@ -19,4 +23,12 @@
 
 .row_posters::-webkit-scrollbar {
   display: none;
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
 }
